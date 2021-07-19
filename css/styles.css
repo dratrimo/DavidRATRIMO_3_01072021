@@ -1,0 +1,16 @@
+h3{
+    font-weight: 100;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    width: 180px;
+    height: 40px;   
+}
+.ville{
+    display: flex;
+    justify-content: center;
+}
