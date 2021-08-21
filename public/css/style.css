@@ -1,9 +1,17 @@
 h3 {
-  font-weight: 50px;
+  font-weight: 1;
 }
 
 header {
   text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 header img {
@@ -14,6 +22,48 @@ header img {
 .ville {
   display: flex;
   justify-content: center;
+  background-color: silver;
+}
+
+#grosTitre {
+  text-align: center;
+  background-color: gainsboro;
+  padding-bottom: 40px;
+}
+
+.explore {
+  border: 1px solid steelblue;
+  border-radius: 30px;
+  width: 200px;
+  height: 40px;
+  line-height: 37px;
+  margin: 0 auto;
+  background-color: steelblue;
+  color: white;
+}
+
+.nav__button {
+  border: 1px solid gainsboro;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px;
+  margin-bottom: 15px;
+  padding-left: 50px;
+  font-weight: bold;
+  color: black;
+  border-radius: 15px;
+  background-color: gainsboro;
+  box-shadow: 1px 1px 4px black;
+}
+
+.nav__button .fas {
+  padding-right: 30px;
+}
+
+footer img {
+  width: 50px;
+  height: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
