@@ -1,11 +1,9 @@
 @import "./Utils/variables";
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 h2{
     padding-left: 15px;
-}
-
-h3{
-    font-weight: 1;
 }
 h4{
     font-size: 20px ;
@@ -23,34 +21,40 @@ text-decoration: none;
 
 header img{
     width: 180px;
-    height: 40px;   
+    height: 30px;   
 }
 .ville{
     display: flex;
     justify-content: center;
-    background-color:silver;
+    background-color: $colour-tertiary;
+    font-weight: bold;
 }
+.suiteTitre{
+   font-size: 19px;
+}
+
 #grosTitre{
     text-align: center;
-    background-color: gainsboro;
+    background-color: #f6f6f6;
     padding-bottom: 40px;
 }
 #fonctionnement{
     height: 280px;
 }
 .explore{
-    border: 1px solid steelblue;
+    border: 1px solid $colour-primary;
     border-radius: 30px;
     width: 200px;
     height: 40px;
     line-height: 37px;
     margin: 0 auto;
-    background-color: steelblue;
+    background-color: $colour-primary;
     color: white;
+    font-weight: bold;
 }
 .nav__button{
-    border: 1px solid gainsboro;
-    width: 300px;
+    border: 1px solid #ffffff;
+    width: 80%;
     height: 50px;
     margin: 0 auto;
     line-height: 50px;
@@ -59,7 +63,7 @@ header img{
     font-weight: bold;
     color: black;
     border-radius: 15px;
-    background-color:gainsboro;
+    background-color: #f6f6f6;
     box-shadow: 1px 1px 4px black;
 }
 .nav__button .fas{
@@ -70,8 +74,8 @@ header img{
     flex-direction: column;
 }
 #restaurants{
-    height: 1050px;
-    background-color: gainsboro;
+    height: 1080px;
+    background-color: #f6f6f6;
     padding-top: 35px;
     .restaurants__sousTitre{
         background-color: white;
@@ -98,22 +102,27 @@ article{
     object-fit: cover;
     padding-top: 5px;
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    
+    border-top-right-radius: 10px;    
+}
+.coeur{
+    position: relative;
+    bottom: 45px;
+    left: 290px;
 }
 
 
 footer {
-    height: 145px;
+    height: 190px;
     padding-left: 20px;
     padding-right: 20px;
     background-color:black;
-    color: white;
+    color: white;   
 }
-
-footer img{
-    width: 50px;
-    height: 10px;
+footer h4{
+    font-family: 'Shrikhand', cursive;
+    font-weight: lighter;
+    padding-top: 25px;
+    margin-top: 0;
 }
 footer ul {
     margin: 0;

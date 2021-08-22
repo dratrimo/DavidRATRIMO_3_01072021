@@ -1,9 +1,9 @@
-h2 {
-  padding-left: 15px;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-h3 {
-  font-weight: 1;
+h2 {
+  padding-left: 15px;
 }
 
 h4 {
@@ -24,18 +24,23 @@ a {
 
 header img {
   width: 180px;
-  height: 40px;
+  height: 30px;
 }
 
 .ville {
   display: flex;
   justify-content: center;
-  background-color: #99E2D0;
+  background-color: #eaeaea;
+  font-weight: bold;
+}
+
+.suiteTitre {
+  font-size: 19px;
 }
 
 #grosTitre {
   text-align: center;
-  background-color: gainsboro;
+  background-color: #f6f6f6;
   padding-bottom: 40px;
 }
 
@@ -52,11 +57,12 @@ header img {
   margin: 0 auto;
   background-color: #9356DC;
   color: white;
+  font-weight: bold;
 }
 
 .nav__button {
-  border: 1px solid gainsboro;
-  width: 300px;
+  border: 1px solid #ffffff;
+  width: 80%;
   height: 50px;
   margin: 0 auto;
   line-height: 50px;
@@ -65,7 +71,7 @@ header img {
   font-weight: bold;
   color: black;
   border-radius: 15px;
-  background-color: gainsboro;
+  background-color: #f6f6f6;
   box-shadow: 1px 1px 4px black;
 }
 
@@ -79,8 +85,8 @@ header img {
 }
 
 #restaurants {
-  height: 1050px;
-  background-color: gainsboro;
+  height: 1080px;
+  background-color: #f6f6f6;
   padding-top: 35px;
 }
 #restaurants .restaurants__sousTitre {
@@ -112,6 +118,12 @@ article {
   border-top-right-radius: 10px;
 }
 
+.coeur {
+  position: relative;
+  bottom: 45px;
+  left: 290px;
+}
+
 footer {
   height: 190px;
   padding-left: 20px;
@@ -124,6 +136,7 @@ footer h4 {
   font-family: "Shrikhand", cursive;
   font-weight: lighter;
   padding-top: 25px;
+  margin-top: 0;
 }
 
 footer ul {
