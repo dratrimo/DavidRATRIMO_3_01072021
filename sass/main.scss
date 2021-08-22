@@ -70,7 +70,7 @@ header img{
     flex-direction: column;
 }
 #restaurants{
-    height: 1020px;
+    height: 1050px;
     background-color: gainsboro;
     padding-top: 35px;
 }
@@ -102,7 +102,24 @@ article{
     box-shadow: 1px 1px 3px black;
 }
 
+footer {
+    height: 145px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:black;
+    color: white;
+}
+
 footer img{
     width: 50px;
     height: 10px;
 }
+footer ul {
+    margin: 0;
+    padding: 0;
+    line-height: 21px;
+}
+footer ul li .fas{
+    padding-right: 8px;
+}
+
