@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
-  },
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
+  
+    "menu": "sass --watch ./sass/menu.scss:./public/css/menu.css"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dratrimo/P3.git"

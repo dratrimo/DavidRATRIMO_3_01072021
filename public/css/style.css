@@ -23,7 +23,7 @@ a {
 }
 
 header img {
-  width: 180px;
+  width: 40%;
   height: 30px;
 }
 
@@ -32,6 +32,7 @@ header img {
   justify-content: center;
   background-color: #eaeaea;
   font-weight: bold;
+  border-top: 2px solid #d3d3d3;
 }
 
 .suiteTitre {
@@ -49,34 +50,49 @@ header img {
 }
 
 .explore {
-  border: 1px solid #9356DC;
+  border: 1px solid #f6f6f6;
   border-radius: 30px;
-  width: 200px;
+  width: 60%;
   height: 40px;
   line-height: 37px;
   margin: 0 auto;
-  background-color: #9356DC;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: white;
   font-weight: bold;
 }
 
 .nav__button {
   border: 1px solid #ffffff;
-  width: 80%;
+  width: 90%;
   height: 50px;
   margin: 0 auto;
   line-height: 50px;
   margin-bottom: 15px;
-  padding-left: 50px;
   font-weight: bold;
   color: black;
   border-radius: 15px;
   background-color: #f6f6f6;
   box-shadow: 1px 1px 4px black;
+  display: flex;
+}
+
+.chiffre {
+  margin-right: 15px;
+  border: 1px solid #9356DC;
+  background-color: #9356DC;
+  color: white;
+  border-radius: 55%;
+  padding: 0.6rem;
+  margin-right: 1rem;
+  height: 1px;
+  line-height: 0px;
+  padding-top: 15px;
+  margin-top: 9px;
 }
 
 .nav__button .fas {
   padding-right: 30px;
+  padding-top: 15px;
 }
 
 .flexRestaurants {
@@ -89,13 +105,20 @@ header img {
   background-color: #f6f6f6;
   padding-top: 35px;
 }
-#restaurants .restaurants__sousTitre {
+#restaurants .groupeTitre {
   background-color: white;
   line-height: 0px;
   padding-left: 8px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 1px 1px 3px black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coeur {
+  padding-top: 25px;
+  padding-right: 18px;
 }
 
 article {
@@ -116,12 +139,6 @@ article {
   padding-top: 5px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-}
-
-.coeur {
-  position: relative;
-  bottom: 45px;
-  left: 290px;
 }
 
 footer {
@@ -147,6 +164,23 @@ footer ul {
 
 footer ul li .fas {
   padding-right: 8px;
+}
+
+#photoBegin img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  padding-top: 5px;
+}
+
+#photoBegin h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: lighter;
+}
+
+.photoBegin__title {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
