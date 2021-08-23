@@ -3,6 +3,15 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #f6f6f6;
+    color: black;
+}
+h1{
+    padding-left: 10px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.1rem;
 }
 a{
     text-decoration: none;
@@ -22,24 +31,38 @@ header img{
 
 //Pages de menu
 
-#photoBegin img{
-    width: 100%; 
-    height: 180px;
-    object-fit: cover;
-    padding-top: 5px;
-   
-}
-#photoBegin h1{
-    font-family: 'Shrikhand', cursive;
-    font-weight: lighter;
-   
+#photoBegin{
+    height: 250px;
+    img{
+        width: 100%; 
+        height: 200px;
+        object-fit: cover;
+        padding-top: 5px;  
+    }
+    h1{
+        font-family: 'Shrikhand', cursive;
+        font-weight: lighter;  
+    }
+
 }
 .photoBegin__title{
     display: flex;
     justify-content: space-between;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    background-color: chartreuse;
+    background-color: #f6f6f6;
     position: relative;
     bottom: 30px;
+}
+.link{
+    color: black;
+}
+.prix{
+    font-weight: bold;
+}
+.tirait{
+    border-top: 3px solid #99e2d0;
+    width: 45px;
+    position: relative;
+    bottom: 0.5rem;
 }
