@@ -5,6 +5,9 @@ body{
     background-color: #f6f6f6;
     color: black;
 }
+main{
+    background-color: #f6f6f6;;
+}
 h1{
     padding-left: 10px;
 }
@@ -12,6 +15,10 @@ h2{
     text-transform: uppercase;
     font-weight: lighter;
     font-size: 1.1rem;
+    padding-top: 10px;
+}
+li{
+    list-style: none;
 }
 a{
     text-decoration: none;
@@ -28,6 +35,27 @@ header img{
     padding-top: 25px;
     padding-right: 18px;
 }
+footer {
+    height: 190px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:black;
+    color: white;   
+}
+footer h4{
+    font-family: 'Shrikhand', cursive;
+    font-weight: lighter;
+    padding-top: 25px;
+    margin-top: 0;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    line-height: 21px;
+}
+footer ul li .fas{
+    padding-right: 8px;
+}
 
 //Pages de menu
 
@@ -43,6 +71,11 @@ header img{
         font-family: 'Shrikhand', cursive;
         font-weight: lighter;  
     }
+    .fas{
+       position: relative;
+       bottom: 27px;
+       left: 10px;
+    }
 
 }
 .photoBegin__title{
@@ -56,13 +89,42 @@ header img{
 }
 .link{
     color: black;
+    display: flex;
+    padding-left: 15px; 
+    justify-content: space-between;   
 }
 .prix{
     font-weight: bold;
+    padding-top: 45px;
+   padding-right: 10px;
 }
 .tirait{
     border-top: 3px solid #99e2d0;
     width: 45px;
     position: relative;
     bottom: 0.5rem;
+}
+article{
+    border: 1px solid white ;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+.commander{
+    border: 1px solid #f6f6f6;
+    border-radius: 40px;
+    width: 50%;
+    height: 40px;
+    line-height: 37px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right,#FF79DA,#9356DC);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.plats{
+    line-height: 0.8rem;
 }
