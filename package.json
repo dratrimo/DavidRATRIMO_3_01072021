@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
   
-    "menu": "sass --watch ./sass/menu.scss:./public/css/menu.css"
+    "menu": "sass --watch ./sass/menu.scss:./css/menu.css"
     
 },
   "repository": {
