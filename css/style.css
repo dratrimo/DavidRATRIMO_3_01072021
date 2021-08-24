@@ -182,6 +182,21 @@ footer ul li .fas {
   #fonctionnement {
     height: 200px;
   }
+
+  .imageCover {
+    width: 450px;
+  }
+
+  .flexRestaurants {
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  article {
+    width: auto;
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
