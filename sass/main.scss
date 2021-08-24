@@ -161,10 +161,16 @@ footer ul li .fas{
 
 @media (min-width: 1023px) {
     .nav__button{
-        width: 30%;
-
-      
-        
-    } 
+        width: 300px;
+    }
+   .fonctionnement{
+       display: flex;
+       justify-content: space-evenly;
+   }
+   #fonctionnement{
+    height: 200px;
+}
+    
+   
 }
 
