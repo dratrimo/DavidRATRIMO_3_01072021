@@ -159,6 +159,12 @@ footer ul li .fas{
 
 /*******Media Query*******/
 
+@media (min-width: 767px) {
+footer {
+    text-align: center;
+}
+}
+
 @media (min-width: 1023px) {
     .nav__button{
         width: 300px;
