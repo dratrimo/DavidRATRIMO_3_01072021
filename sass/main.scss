@@ -61,9 +61,10 @@ header img{
     color: white;
     font-weight: bold;
     transform: scale(1);
-    transition: transform 400ms;
+    transition: transform 400ms, background-color 300ms;
     &:hover{
         transform: scale(1.15);
+        background: $colour-secondary;
     }
 }
 .nav__button{
