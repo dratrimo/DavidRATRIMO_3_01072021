@@ -1,4 +1,7 @@
 @import "./Utils/variables";
+
+//**********GENERIQUE**************
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -8,7 +11,6 @@ h2{
 h4{
     font-size: 20px ;
 }
-
 header{
     text-align: center;
 }
@@ -18,18 +20,20 @@ li{
 a{
 text-decoration: none;
 }
+//**********HEADER**************
 
 header img{
     width: 40%;
     height: 30px;   
 }
+//**********MAIN (Gros titre)**************
+
 .ville{
     display: flex;
     justify-content: center;
     background-color: $colour-tertiary;
     font-weight: bold;
-    border-top: 2px solid #d3d3d3;
-    
+    border-top: 2px solid #d3d3d3;   
 }
 .suiteTitre{
    font-size: 19px;
@@ -40,6 +44,7 @@ header img{
     background-color: #f6f6f6;
     padding-bottom: 40px;
 }
+//**********MAIN (Fonctionnement)**************
 #fonctionnement{
     height: 280px;
 }
@@ -66,9 +71,7 @@ header img{
     border-radius: 15px;
     background-color: #f6f6f6;
     box-shadow: 1px 1px 4px black;
-    display: flex;
-
-    
+    display: flex;    
 }
 .chiffre{
   margin-right: 15px;
@@ -83,14 +86,15 @@ header img{
     padding-top: 16px;
     margin-top: 9px;
     position: relative;
-    right: 15px;
-    
+    right: 15px;   
 }
 
 .nav__button .fas{
     padding-right: 30px;
     padding-top: 15px;
 }
+//**********MAIN (Restaurants)**************
+
 .flexRestaurants{
     display: flex;
     flex-direction: column;
@@ -132,9 +136,7 @@ article{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;    
 }
-
-
-
+//**********FOOTER**************
 footer {
     height: 190px;
     padding-left: 20px;
@@ -178,9 +180,6 @@ footer {
 }
     .imageCover{
     width: 450px;
-    
-    
-        // display: inline-block;
     }
     .flexRestaurants{
         height: 500px;
