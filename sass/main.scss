@@ -16,10 +16,12 @@ header{
 }
 li{
     list-style: none;
+    
 }
 a{
 text-decoration: none;
 }
+
 //**********HEADER**************
 
 header img{
@@ -162,6 +164,9 @@ footer ul {
 }
 footer ul li .fas{
     padding-right: 8px;
+}
+footer ul li a:link{
+    color: white;
 }
 
 /*******Media Query*******/

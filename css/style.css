@@ -173,6 +173,10 @@ footer ul li .fas {
   padding-right: 8px;
 }
 
+footer ul li a:link {
+  color: white;
+}
+
 /*******Media Query*******/
 @media (min-width: 767px) {
   footer {
