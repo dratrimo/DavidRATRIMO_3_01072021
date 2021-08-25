@@ -136,6 +136,15 @@ article {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 30px;
+  transform: scale(1);
+  transition: transform 400ms;
+}
+.commander:hover {
+  transform: scale(1.15);
+}
+
+.commander a:link {
+  color: white;
 }
 
 .plats {
