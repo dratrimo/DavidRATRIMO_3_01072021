@@ -80,6 +80,10 @@ header img {
   background-color: #f6f6f6;
   box-shadow: 1px 1px 4px black;
   display: flex;
+  transition: all 300ms;
+}
+.nav__button:hover {
+  box-shadow: 1px 1px 10px black;
 }
 
 .chiffre {

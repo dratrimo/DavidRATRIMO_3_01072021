@@ -79,7 +79,11 @@ header img{
     border-radius: 15px;
     background-color: #f6f6f6;
     box-shadow: 1px 1px 4px black;
-    display: flex;    
+    display: flex; 
+    transition: all 300ms;
+    &:hover{
+        box-shadow: 1px 1px 10px black;
+    }   
 }
 .chiffre{
   margin-right: 15px;
