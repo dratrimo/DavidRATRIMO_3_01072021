@@ -110,6 +110,10 @@ article{
     border-radius: 30px;
     margin-bottom: 20px;
     box-shadow: 1px 1px 5px black;
+    transition: all 300ms;
+    &:hover{
+        box-shadow: 1px 1px 10px black;
+    } 
 }
 .commander{
     border: 1px solid #f6f6f6;
@@ -125,9 +129,10 @@ article{
     margin-bottom: 50px;
     margin-top: 30px;
     transform: scale(1);
-    transition: transform 400ms;
+    transition: all 300ms;
     &:hover{
         transform: scale(1.15);
+        background: $colour-secondary;
     }
 }
 .commander a:link{
