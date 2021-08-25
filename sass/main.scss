@@ -117,7 +117,7 @@ header img{
         padding-left: 8px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        box-shadow: 1px 1px 3px black;
+        // box-shadow: 1px 1px 3px black;
         display: flex;
         justify-content:space-between;
     }
@@ -129,18 +129,20 @@ header img{
 article{
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .imageCover{
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
     
 }
 .restaurants img{
     width: 100%; 
     height: 150px;
     object-fit: cover;
-    padding-top: 5px;
+    // padding-top: 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;    
 }
