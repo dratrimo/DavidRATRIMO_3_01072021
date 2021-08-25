@@ -59,6 +59,10 @@ header img {
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: white;
   font-weight: bold;
+  transform: scale(1);
+}
+.explore:hover {
+  transform: scale(1.15);
 }
 
 .nav__button {

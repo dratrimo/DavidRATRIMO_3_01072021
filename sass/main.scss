@@ -58,6 +58,10 @@ header img{
     background: linear-gradient(to bottom right, $colour-secondary, $colour-primary);
     color: white;
     font-weight: bold;
+    transform: scale(1);
+    &:hover{
+        transform: scale(1.15);
+    }
 }
 .nav__button{
     border: 1px solid #ffffff;
