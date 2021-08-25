@@ -61,7 +61,7 @@ header img{
     color: white;
     font-weight: bold;
     transform: scale(1);
-    transition: transform 400ms, background-color 300ms;
+    transition: all 800ms;
     &:hover{
         transform: scale(1.15);
         background: $colour-secondary;
