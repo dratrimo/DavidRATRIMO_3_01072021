@@ -127,6 +127,10 @@ text-decoration: none;
         // box-shadow: 1px 1px 3px black;
         display: flex;
         justify-content:space-between;
+        transition: background-color 400ms;
+        &:hover{
+            background-color: #f5edff;
+        }
     }
 }
 .coeur{
@@ -136,9 +140,9 @@ text-decoration: none;
 .coeur .far{
     font-size: 2rem;
     background: white;
-    transition: all 2s;
+    transition: background-color 800ms linear;
     &:hover{
-        background: $colour-primary;
+        background-color: $colour-primary;
     }
 }
 article{

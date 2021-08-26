@@ -162,6 +162,10 @@ a {
   border-bottom-right-radius: 10px;
   display: flex;
   justify-content: space-between;
+  transition: background-color 400ms;
+}
+#restaurants .groupeTitre:hover {
+  background-color: #f5edff;
 }
 
 .coeur {
@@ -172,10 +176,10 @@ a {
 .coeur .far {
   font-size: 2rem;
   background: white;
-  transition: all 2s;
+  transition: background-color 800ms linear;
 }
 .coeur .far:hover {
-  background: #9356DC;
+  background-color: #9356DC;
 }
 
 article {
