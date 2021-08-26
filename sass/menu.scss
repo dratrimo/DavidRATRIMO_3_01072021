@@ -1,4 +1,5 @@
 @import "./Utils/variables";
+@import "./Layouts/footer";
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -73,8 +74,9 @@ footer ul li .fas{
     }
     .fas{
        position: relative;
-       bottom: 27px;
-       left: 10px;
+       bottom: 37px;
+       left: 50px;
+       font-size: 2rem;
     }
 
 }
@@ -142,3 +144,74 @@ article{
 .plats{
     line-height: 0.8rem;
 }
+/*******Media Query*******/
+
+@media (min-width: 767px) {
+    footer {
+        text-align: center;
+    }
+    }
+    
+    @media (min-width: 1023px) {
+        .nav__button{
+            width: 300px;
+        }
+       .fonctionnement{
+           display: flex;
+           justify-content: space-evenly;
+       }
+       #fonctionnement{
+        height: 200px;
+    }
+        .imageCover{
+        width: 450px;
+        }
+        .flexRestaurants{
+            height: 500px;
+            flex-direction: row;    
+            flex-wrap: wrap; 
+            // max-width: 1024px;
+            margin: 0 auto;
+        ;
+            
+            
+        }
+        article{
+            width: auto;
+            margin: 0 auto;
+        }
+        #restaurants{
+            height: 650px;
+        }
+        footer{
+            text-align: center;
+        }
+       
+    }
+    @media (min-width: 1344px) {
+        .flexRestaurants{
+        max-width: 1344px;
+    }
+        h1{
+            font-size: 2rem;
+        }
+        h2{text-align: center;
+           font-size: 2rem;
+        }
+        .nav__button{
+            width: 400px;
+        }
+    }
+    @media (min-width: 1890px) {
+        #fonctionnement{
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+        #restaurants{
+            height: 400px;
+        }
+        .flexRestaurants{
+        max-width: 1890px;
+    }
+    
+    }

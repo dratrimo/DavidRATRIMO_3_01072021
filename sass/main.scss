@@ -1,4 +1,6 @@
 @import "./Utils/variables";
+@import "./Layouts/header";
+@import "./Layouts/footer";
 
 //**********GENERIQUE**************
 
@@ -26,13 +28,6 @@ text-decoration: none;
     color: white;
 }
 
-//**********HEADER**************
-
-header img{
-    width: 50%;
-    object-fit:contain;
-    height: 80px;   
-}
 //**********MAIN (Gros titre)**************
 
 .ville{
@@ -159,32 +154,6 @@ article{
     // padding-top: 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;    
-}
-//**********FOOTER**************
-footer {
-    height: 190px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color:black;
-    color: white;   
-}
-footer h4{
-    font-family: 'Shrikhand', cursive;
-    font-weight: lighter;
-    padding-top: 25px;
-    margin-top: 0;
-}
-footer ul {
-    margin: 0;
-    padding: 0;
-    line-height: 21px;
-}
-footer ul li .fas{
-    padding-right: 8px;
-}
-footer ul li a:link{
-    color: white;
-    
 }
 
 /*******Media Query*******/
