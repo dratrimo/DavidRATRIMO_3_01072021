@@ -84,6 +84,8 @@ text-decoration: none;
     transition: all 300ms;
     &:hover{
         box-shadow: 1px 1px 10px black;
+        background: #f5edff
+        ;
     }   
 }
 .chiffre{
@@ -144,6 +146,7 @@ article{
     transition: all 300ms;
     &:hover{
         box-shadow: 1px 1px 10px black;
+    
     }
     
 }
