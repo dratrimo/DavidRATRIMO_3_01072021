@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
-  max-width: 1440px;
 }
 
 h2 {
@@ -22,6 +21,10 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.end a:link {
+  color: white;
 }
 
 header img {
@@ -216,7 +219,6 @@ footer ul li a:link {
     height: 500px;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1024px;
     margin: 0 auto;
   }
 
@@ -231,6 +233,29 @@ footer ul li a:link {
 
   footer {
     text-align: center;
+  }
+}
+@media (min-width: 1344px) {
+  .flexRestaurants {
+    max-width: 1344px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1890px) {
+  #restaurants {
+    height: 400px;
+  }
+
+  .flexRestaurants {
+    max-width: 1890px;
   }
 }
 
