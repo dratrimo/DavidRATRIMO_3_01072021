@@ -28,8 +28,9 @@ a {
 }
 
 header img {
-  width: 40%;
-  height: 30px;
+  width: 50%;
+  object-fit: contain;
+  height: 80px;
 }
 
 .ville {
@@ -58,6 +59,7 @@ header img {
   border: 1px solid #f6f6f6;
   border-radius: 30px;
   width: 60%;
+  max-width: 800px;
   height: 40px;
   line-height: 37px;
   margin: 0 auto;
@@ -248,8 +250,17 @@ footer ul li a:link {
     text-align: center;
     font-size: 2rem;
   }
+
+  .nav__button {
+    width: 400px;
+  }
 }
 @media (min-width: 1890px) {
+  #fonctionnement {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
   #restaurants {
     height: 400px;
   }
