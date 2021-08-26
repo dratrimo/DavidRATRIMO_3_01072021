@@ -165,8 +165,17 @@ a {
 }
 
 .coeur {
-  padding-top: 25px;
-  padding-right: 18px;
+  padding-top: 20px;
+  padding-right: 25px;
+}
+
+.coeur .far {
+  font-size: 2rem;
+  background: white;
+  transition: all 2s;
+}
+.coeur .far:hover {
+  background: #9356DC;
 }
 
 article {

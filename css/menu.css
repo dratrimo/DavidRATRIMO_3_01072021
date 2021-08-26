@@ -155,6 +155,7 @@ article {
 }
 article:hover {
   box-shadow: 1px 1px 10px black;
+  background: #f5edff;
 }
 
 .commander {
