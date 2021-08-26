@@ -30,7 +30,7 @@ header{
 header img{
     width: 40%;
     height: 30px;   
-    
+    padding-top: 40px;
 }
 .coeur{
     padding-top: 25px;
@@ -61,12 +61,12 @@ footer ul li .fas{
 //Pages de menu
 
 #photoBegin{
-    height: 250px;
+    height: 260px;
     img{
         width: 100%; 
         height: 200px;
         object-fit: cover;
-        padding-top: 5px;  
+          
     }
     h1{
         font-family: 'Shrikhand', cursive;
@@ -150,68 +150,25 @@ article{
     footer {
         text-align: center;
     }
+  
+}
+@media (min-width: 1023px) {
+    article{
+        display: inline-block;
+        margin-right: 40px;
+        width: 20%;
+        margin-left: 40px;
+
     }
+    .plats{
+        line-height: 1.1rem;
+    }
+    .entrees, #plats, #desserts{
+        text-align: center;
+    }
+    .tirait{
+        margin: 0 auto;
+    }
+}
     
-    @media (min-width: 1023px) {
-        .nav__button{
-            width: 300px;
-        }
-       .fonctionnement{
-           display: flex;
-           justify-content: space-evenly;
-       }
-       #fonctionnement{
-        height: 200px;
-    }
-        .imageCover{
-        width: 450px;
-        }
-        .flexRestaurants{
-            height: 500px;
-            flex-direction: row;    
-            flex-wrap: wrap; 
-            // max-width: 1024px;
-            margin: 0 auto;
-        ;
-            
-            
-        }
-        article{
-            width: auto;
-            margin: 0 auto;
-        }
-        #restaurants{
-            height: 650px;
-        }
-        footer{
-            text-align: center;
-        }
-       
-    }
-    @media (min-width: 1344px) {
-        .flexRestaurants{
-        max-width: 1344px;
-    }
-        h1{
-            font-size: 2rem;
-        }
-        h2{text-align: center;
-           font-size: 2rem;
-        }
-        .nav__button{
-            width: 400px;
-        }
-    }
-    @media (min-width: 1890px) {
-        #fonctionnement{
-            max-width: 1800px;
-            margin: 0 auto;
-        }
-        #restaurants{
-            height: 400px;
-        }
-        .flexRestaurants{
-        max-width: 1890px;
-    }
     
-    }
