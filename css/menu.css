@@ -193,6 +193,12 @@ article:hover {
   }
 }
 @media (min-width: 1023px) {
+  h1 {
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 2rem;
+  }
+
   article {
     display: inline-block;
     margin-right: 40px;
@@ -210,6 +216,10 @@ article:hover {
 
   .tirait {
     margin: 0 auto;
+  }
+
+  #photoBegin img {
+    height: 240px;
   }
 }
 
