@@ -1,3 +1,9 @@
+header img {
+  width: 50%;
+  object-fit: contain;
+  height: 80px;
+}
+
 footer {
   height: 190px;
   padding-left: 20px;
@@ -60,17 +66,6 @@ header {
   text-align: center;
 }
 
-header img {
-  width: 40%;
-  height: 30px;
-  padding-top: 40px;
-}
-
-.coeur {
-  padding-top: 25px;
-  padding-right: 18px;
-}
-
 footer {
   height: 190px;
   padding-left: 20px;
@@ -97,7 +92,7 @@ footer ul li .fas {
 }
 
 #photoBegin {
-  height: 260px;
+  height: 310px;
 }
 #photoBegin img {
   width: 100%;
@@ -110,7 +105,7 @@ footer ul li .fas {
 }
 #photoBegin .fas {
   position: relative;
-  bottom: 37px;
+  bottom: 57px;
   left: 50px;
   font-size: 2rem;
 }

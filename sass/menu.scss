@@ -1,4 +1,5 @@
 @import "./Utils/variables";
+@import "./Layouts/header";
 @import "./Layouts/footer";
 
 body{
@@ -27,15 +28,15 @@ a{
 header{
     text-align: center;
 }
-header img{
-    width: 40%;
-    height: 30px;   
-    padding-top: 40px;
-}
-.coeur{
-    padding-top: 25px;
-    padding-right: 18px;
-}
+// header img{
+//     width: 40%;
+//     height: 30px;   
+//     padding-top: 40px;
+// }
+// .coeur{
+//     padding-top: 25px;
+//     padding-right: 18px;
+// }
 footer {
     height: 190px;
     padding-left: 20px;
@@ -61,7 +62,7 @@ footer ul li .fas{
 //Pages de menu
 
 #photoBegin{
-    height: 260px;
+    height: 310px;
     img{
         width: 100%; 
         height: 200px;
@@ -74,7 +75,7 @@ footer ul li .fas{
     }
     .fas{
        position: relative;
-       bottom: 37px;
+       bottom: 57px;
        left: 50px;
        font-size: 2rem;
     }
