@@ -4,6 +4,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 h2{
     padding-left: 15px;
@@ -206,7 +208,12 @@ footer {
     .flexRestaurants{
         height: 500px;
         flex-direction: row;    
-        flex-wrap: wrap;    
+        flex-wrap: wrap; 
+        max-width: 1024px;
+        margin: 0 auto;
+    ;
+        
+        
     }
     article{
         width: auto;
@@ -220,4 +227,7 @@ footer {
     }
    
 }
+@media (min-width: 1439px) {
 
+
+}
