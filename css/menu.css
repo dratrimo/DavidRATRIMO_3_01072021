@@ -66,6 +66,10 @@ header {
   text-align: center;
 }
 
+.coeur .far {
+  visibility: hidden;
+}
+
 footer {
   height: 190px;
   padding-left: 20px;
