@@ -156,7 +156,7 @@ article:hover {
 .commander {
   border: 1px solid #f6f6f6;
   border-radius: 40px;
-  width: 50%;
+  width: 250px;
   height: 40px;
   line-height: 37px;
   margin: 0 auto;
@@ -170,7 +170,6 @@ article:hover {
   transition: all 300ms;
 }
 .commander:hover {
-  transform: scale(1.15);
   background: #FF79DA;
 }
 
@@ -186,6 +185,10 @@ article:hover {
 @media (min-width: 767px) {
   footer {
     text-align: center;
+  }
+
+  .commander {
+    width: 290px;
   }
 }
 @media (min-width: 1023px) {
