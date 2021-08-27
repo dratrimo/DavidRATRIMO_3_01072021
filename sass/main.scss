@@ -1,5 +1,6 @@
 @import "./Utils/variables";
 @import "./Layouts/header";
+@import "./Layouts/footer";
 // @import "./Layouts/footer";
 
 //**********GENERIQUE**************
@@ -218,11 +219,7 @@ footer {
         height: 500px;
         flex-direction: row;    
         flex-wrap: wrap; 
-        // max-width: 1024px;
-        margin: 0 auto;
-    ;
-        
-        
+        margin: 0 auto;  
     }
     article{
         width: auto;
