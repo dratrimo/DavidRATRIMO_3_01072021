@@ -53,7 +53,7 @@ text-decoration: none;
 .explore{
     border: 1px solid #f6f6f6;
     border-radius: 30px;
-    width: 60%;
+    width: 250px;
     max-width: 800px;
     height: 40px;
     line-height: 37px;
@@ -64,8 +64,8 @@ text-decoration: none;
     transform: scale(1);
     transition: all 800ms;
     &:hover{
-        transform: scale(1.15);
-        background: $colour-secondary;
+        // transform: scale(1.15);
+        background: lighten($color: $colour-secondary, $amount: 5);
     }
 }
 .nav__button{
@@ -127,10 +127,6 @@ text-decoration: none;
         // box-shadow: 1px 1px 3px black;
         display: flex;
         justify-content:space-between;
-        transition: background-color 400ms;
-        &:hover{
-            background-color: #f5edff;
-        }
     }
 }
 .coeur{
@@ -182,6 +178,9 @@ footer {
 @media (min-width: 1023px) {
     .nav__button{
         width: 300px;
+    }
+    .explore{
+        width: 290px;
     }
    .fonctionnement{
        display: flex;

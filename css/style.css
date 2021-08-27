@@ -87,7 +87,7 @@ a {
 .explore {
   border: 1px solid #f6f6f6;
   border-radius: 30px;
-  width: 60%;
+  width: 250px;
   max-width: 800px;
   height: 40px;
   line-height: 37px;
@@ -99,8 +99,7 @@ a {
   transition: all 800ms;
 }
 .explore:hover {
-  transform: scale(1.15);
-  background: #FF79DA;
+  background: #ff93e1;
 }
 
 .nav__button {
@@ -162,10 +161,6 @@ a {
   border-bottom-right-radius: 10px;
   display: flex;
   justify-content: space-between;
-  transition: background-color 400ms;
-}
-#restaurants .groupeTitre:hover {
-  background-color: #f5edff;
 }
 
 .coeur {
@@ -216,6 +211,10 @@ article {
 @media (min-width: 1023px) {
   .nav__button {
     width: 300px;
+  }
+
+  .explore {
+    width: 290px;
   }
 
   .fonctionnement {
