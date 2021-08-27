@@ -4,35 +4,6 @@ header img {
   height: 80px;
 }
 
-footer {
-  height: 190px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: black;
-  color: white;
-}
-
-footer h4 {
-  font-family: "Shrikhand", cursive;
-  font-weight: lighter;
-  padding-top: 25px;
-  margin-top: 0;
-}
-
-footer ul {
-  margin: 0;
-  padding: 0;
-  line-height: 21px;
-}
-
-footer ul li .fas {
-  padding-right: 8px;
-}
-
-footer ul li a:link {
-  color: white;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
@@ -201,6 +172,29 @@ article {
   border-top-right-radius: 10px;
 }
 
+footer {
+  height: 190px;
+  background-color: black;
+  color: white;
+}
+
+footer h4 {
+  font-family: "Shrikhand", cursive;
+  font-weight: lighter;
+  padding-top: 25px;
+  margin-top: 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  line-height: 21px;
+}
+
+footer ul li .fas {
+  padding-right: 8px;
+}
+
 /*******Media Query*******/
 @media (min-width: 767px) {
   footer {
@@ -243,10 +237,6 @@ article {
 
   #restaurants {
     height: 650px;
-  }
-
-  footer {
-    text-align: center;
   }
 }
 @media (min-width: 1344px) {
