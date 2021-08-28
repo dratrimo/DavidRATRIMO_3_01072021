@@ -93,11 +93,6 @@ header {
   bottom: 30px;
 }
 
-.rang {
-  display: flex;
-  flex-direction: column;
-}
-
 .link {
   color: black;
   display: flex;
@@ -169,7 +164,7 @@ article:hover {
     width: 290px;
   }
 }
-@media (min-width: 1023px) {
+@media (min-width: 1440px) {
   h1 {
     margin: 0 auto;
     padding-top: 20px;
@@ -179,17 +174,14 @@ article:hover {
   article {
     display: inline-block;
     margin-right: 40px;
-    width: 21%;
+    width: 27%;
     margin-left: 40px;
-    height: 8rem;
+    height: 130px;
   }
 
   .plats {
     line-height: 1.1rem;
-  }
-
-  .entrees, #plats, #desserts {
-    text-align: center;
+    text-align: left;
   }
 
   .tirait {
