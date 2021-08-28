@@ -93,6 +93,11 @@ header {
   bottom: 30px;
 }
 
+.rang {
+  display: flex;
+  flex-direction: column;
+}
+
 .link {
   color: black;
   display: flex;
