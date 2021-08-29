@@ -96,7 +96,7 @@ text-decoration: none;
     right: 13px;
     top: 9px;
     text-align: center;
-    line-height: 30px;
+    line-height: 32px;
     border: 1px solid $colour-primary;
     background-color: $colour-primary;
     color: white;
@@ -137,7 +137,7 @@ text-decoration: none;
     background: white;
     transition: background-color 800ms linear;
     &:hover{
-        background-color: $colour-primary;
+        background-color: $colour-primary;    
     }
 }
 article{
