@@ -63,8 +63,9 @@ text-decoration: none;
     color: white;
     font-weight: bold;
     transform: scale(1);
-    transition: all 800ms;
+    transition: transform 800ms;
     &:hover{
+        transform: scale(1.15);
         background: lighten($color: $colour-secondary, $amount: 5);
     }
 }
@@ -136,8 +137,10 @@ text-decoration: none;
     font-size: 2rem;
     background: white;
     transition: background-color 800ms linear;
+    
+    
     &:hover{
-        background-color: $colour-primary;    
+        background-color: $colour-primary;
     }
 }
 article{
@@ -166,28 +169,29 @@ article{
     border-top-right-radius: 10px;    
 }
 
-footer {
-    height: 190px;
-    background-color:black;
-    color: white;   
-}
-footer h4{
-    font-family: 'Shrikhand', cursive;
-    font-weight: lighter;
-    padding-top: 25px;
-    margin-top: 0;
-}
-footer ul {
-    margin: 0;
-    padding: 0;
-    line-height: 21px;
-}
-footer ul li .fas{
-    padding-right: 8px;
-}
-.end a:link{
-    color: white;
-}
+//**********FOOTER**************
+// footer {
+//     height: 190px;
+//     background-color:black;
+//     color: white;   
+// }
+// footer h4{
+//     font-family: 'Shrikhand', cursive;
+//     font-weight: lighter;
+//     padding-top: 25px;
+//     margin-top: 0;
+// }
+// footer ul {
+//     margin: 0;
+//     padding: 0;
+//     line-height: 21px;
+// }
+// footer ul li .fas{
+//     padding-right: 8px;
+// }
+// .end a:link{
+//     color: white;
+// }
 
 
 /*******Media Query*******/
