@@ -65,7 +65,6 @@ text-decoration: none;
     transform: scale(1);
     transition: transform 800ms;
     &:hover{
-        transform: scale(1.15);
         background: lighten($color: $colour-secondary, $amount: 5);
     }
 }
@@ -133,16 +132,37 @@ text-decoration: none;
     padding-top: 20px;
     padding-right: 25px;
 }
-.coeur .far{
-    font-size: 2rem;
-    background: white;
-    transition: background-color 800ms linear;
-    
-    
-    &:hover{
-        background-color: $colour-primary;
-    }
+.fa-heart {
+    font-size: 24px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
+
+
+.fa-heart:before {
+    font-weight: bold;
+    transition: color 1.5s ease-out;
+}
+
+.fa-heart:hover {
+    color: #9356DC;
+    cursor: pointer;
+}
+
+// .coeur .far{
+//     font-size: 2rem;
+//     background: white;
+//     transition: background-color 800ms linear;
+    
+    
+//     &:hover{
+//         background-color: $colour-primary;
+//     }
+// }
+
+
+
 article{
     width: 90%;
     margin: 0 auto;

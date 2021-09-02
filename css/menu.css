@@ -176,21 +176,20 @@ article:hover {
     font-size: 2rem;
   }
 
+  .groupeMenu {
+    display: flex;
+    justify-content: space-around;
+  }
+
   article {
     display: inline-block;
-    margin-right: 40px;
     width: 27%;
-    margin-left: 40px;
-    height: 130px;
+    height: 95px;
   }
 
   .plats {
     line-height: 1.1rem;
     text-align: left;
-  }
-
-  .tirait {
-    margin: 0 auto;
   }
 
   #photoBegin img {
