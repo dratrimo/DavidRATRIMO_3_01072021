@@ -179,6 +179,7 @@ article:hover {
   .groupeMenu {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   article {
