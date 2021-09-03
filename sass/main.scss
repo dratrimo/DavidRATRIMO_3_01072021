@@ -141,17 +141,14 @@ text-decoration: none;
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-}
-
-
-.fa-heart:before {
-    font-weight: bold;
-    transition: color 1.5s ease-out;
-}
-
-.fa-heart:hover {
-    color: #9356DC;
-    cursor: pointer;
+    &::before{
+        font-weight: bold;
+        transition: color 1s ease-out;
+    }
+    &:hover{
+        color: #9356DC;
+        cursor: pointer;
+    }
 }
 
 article{
