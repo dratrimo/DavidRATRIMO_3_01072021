@@ -61,6 +61,31 @@ a {
   color: white;
 }
 
+.loadingSpinner {
+  width: 150px;
+  height: 150px;
+  border: solid 3px #9356DC;
+  border-bottom-color: #FF79DA;
+  border-radius: 50%;
+  animation: loadingSpinner 1s linear infinite;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@keyframes loadingSpinner {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loadingSpinner {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
 .ville {
   display: flex;
   justify-content: center;

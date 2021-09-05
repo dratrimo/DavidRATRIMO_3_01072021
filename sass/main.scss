@@ -32,6 +32,32 @@ text-decoration: none;
 //**********LOADING SPINNER**************
 
 
+.loadingSpinner{
+    
+    width: 150px;
+    height: 150px;
+    border: solid 3px $colour-primary;
+    border-bottom-color: $colour-secondary;
+    border-radius: 50%;
+    animation: loadingSpinner 1s linear infinite;
+    // -webkit-animation: loadingSpinner 1s linear infinite;
+    
+    // Placer le loadingSpinner
+    margin: auto;
+    position: absolute;
+    top: 0;left:0; right:0; bottom: 0;
+
+}
+@keyframes loadingSpinner{
+    to {-webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes loadingSpinner{
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
 
 //**********MAIN (Gros titre)**************
 
@@ -187,6 +213,7 @@ footer {
 }
 
 @media (min-width: 1023px) {
+    
     .nav__button{
         width: 300px;
     }
@@ -232,6 +259,7 @@ footer {
     }
 }
 @media (min-width: 1890px) {
+  
     #fonctionnement{
         max-width: 1800px;
         margin: 0 auto;
