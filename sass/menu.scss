@@ -41,7 +41,7 @@ header{
 //     padding-right: 18px;
 // }
 
-//Pages de menu
+//Pages de menu 
 
 #photoBegin{
     height: 310px;
@@ -84,6 +84,7 @@ header{
     padding-top: 45px;
    padding-right: 10px;
 }
+
 .tirait{
     border-top: 3px solid #99e2d0;
     width: 45px;
@@ -97,11 +98,46 @@ article{
     margin-bottom: 20px;
     box-shadow: 1px 1px 5px black;
     transition: all 300ms;
+    
     &:hover{
         box-shadow: 1px 1px 10px black;
         background: #f5edff;
     } 
 }
+article:nth-child(1){
+    animation: fadeInM 2s;
+    @keyframes fadeInM {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+}
+article:nth-child(2){
+    animation: fadeInM 4s;
+    @keyframes fadeInM {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+}
+article:nth-child(3){
+    animation: fadeInM 5s;
+    @keyframes fadeInM {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+}
+
 .commander{
     border: 1px solid #f6f6f6;
     border-radius: 40px;
@@ -145,7 +181,7 @@ article{
         padding-top: 20px;
         font-size: 2rem;
     }
-    .groupeMenu{
+    .groupeMenu1, .groupeMenu2, .groupeMenu3{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;

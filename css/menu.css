@@ -131,6 +131,42 @@ article:hover {
   background: #f5edff;
 }
 
+article:nth-child(1) {
+  animation: fadeInM 2s;
+}
+@keyframes fadeInM {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+article:nth-child(2) {
+  animation: fadeInM 4s;
+}
+@keyframes fadeInM {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+article:nth-child(3) {
+  animation: fadeInM 5s;
+}
+@keyframes fadeInM {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .commander {
   border: 1px solid #f6f6f6;
   border-radius: 40px;
@@ -176,7 +212,7 @@ article:hover {
     font-size: 2rem;
   }
 
-  .groupeMenu {
+  .groupeMenu1, .groupeMenu2, .groupeMenu3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
