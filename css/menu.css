@@ -69,6 +69,10 @@ header {
   visibility: hidden;
 }
 
+.anima {
+  float: right;
+}
+
 #photoBegin {
   height: 310px;
 }
@@ -132,7 +136,7 @@ article:hover {
 }
 
 article:nth-child(1) {
-  animation: fadeInM 2s;
+  animation: fadeInM 3s;
 }
 @keyframes fadeInM {
   from {
@@ -144,7 +148,7 @@ article:nth-child(1) {
 }
 
 article:nth-child(2) {
-  animation: fadeInM 4s;
+  animation: fadeInM 5s;
 }
 @keyframes fadeInM {
   from {
@@ -156,7 +160,7 @@ article:nth-child(2) {
 }
 
 article:nth-child(3) {
-  animation: fadeInM 5s;
+  animation: fadeInM 6s;
 }
 @keyframes fadeInM {
   from {
