@@ -29,7 +29,7 @@ text-decoration: none;
     color: white;
 }
 
-//**********LOADING SPINNER**************
+//********** LOADING SPINNER **************
 #loading{
     position:fixed;
     width: 100%;
@@ -76,7 +76,7 @@ text-decoration: none;
     }
 }
 
-//**********MAIN (Gros titre)**************
+//********** MAIN (Gros titre) **************
 
 .ville{
     display: flex;
@@ -94,7 +94,7 @@ text-decoration: none;
     background-color: #f6f6f6;
     padding-bottom: 40px;
 }
-//**********MAIN (Fonctionnement)**************
+//********** MAIN (Fonctionnement) **************
 #fonctionnement{
     height: 280px;
 }
@@ -154,7 +154,7 @@ text-decoration: none;
     padding-right: 30px;
     padding-top: 15px;
 }
-//**********MAIN (Restaurants)**************
+//********** MAIN (Restaurants) **************
 
 .flexRestaurants{
     display: flex;
@@ -221,7 +221,7 @@ article{
 }
 
 
-/*******Media Query*******/
+/******* Media Query *******/
 
 @media (min-width: 767px) {
 footer {

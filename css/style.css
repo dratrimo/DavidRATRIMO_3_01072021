@@ -251,7 +251,7 @@ article {
   border-top-right-radius: 10px;
 }
 
-/*******Media Query*******/
+/******* Media Query *******/
 @media (min-width: 767px) {
   footer {
     text-align: center;

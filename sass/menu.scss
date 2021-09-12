@@ -36,7 +36,10 @@ header{
  
 }
 
-//Pages de menu 
+// PAGES DE MENU 
+.groupeMenu1 .groupeMenu2 .groupeMenu3{
+    height: 98px;
+}
 
 #photoBegin{
     height: 310px;
@@ -68,18 +71,9 @@ header{
     bottom: 30px;
 }
 
-.link{
-    color: black;
-    display: flex;
-    padding-left: 15px; 
-    justify-content: space-between;   
-}
-.prix{
-    font-weight: bold;
-    padding-top: 45px;
-    
-//    padding-right: 10px;
-}
+
+
+// ARTICLES ***********************************
 
 .tirait{
     border-top: 3px solid #99e2d0;
@@ -87,19 +81,50 @@ header{
     position: relative;
     bottom: 0.5rem;
 }
+.link{
+    height: 101px;
+    color: black;
+    display: flex;
+    padding-left: 15px; 
+    justify-content: space-between;  
+    
+    &:hover .animaMenu{
+        // transform: scaleX(4);
+    
+    }
+}
+.flexMenu{
+    width: 1262px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.animaMenu{
+    // width: 50px;
+    // height: 100px;
+    // text-align: center;
+    
+    // border: 1px solid black;
+    // height: 101px;
+    // background: white;
+    // transition: all 1s;
+    // border-top-right-radius: 15px;
+    // border-bottom-right-radius: 15px;
+}
 article{
+    width: 100%;
+    height: 100px;
     border: 1px solid white ;
     background-color: white;
     border-radius: 30px;
     margin-bottom: 20px;
     box-shadow: 1px 1px 5px black;
-    transition: all 300ms;
-    
+    transition: all 200ms; 
     &:hover{
         box-shadow: 1px 1px 10px black;
         background: #f5edff;
-
     } 
+   
 }
 article:nth-child(1){
     animation: fadeInM 3s;
@@ -134,6 +159,23 @@ article:nth-child(3){
         }
     }
 }
+.plats{
+    line-height: 0.8rem;
+    width: 70%;
+    // height: 90px;
+}
+.prix{
+    font-weight: bold;
+    // padding-top: 45px;
+    width: 30px;
+    text-align: center;    
+}
+.prixIcone{
+    display: flex;
+}
+
+
+// BOUTON COMMANDER************************************
 
 .commander{
     border: 1px solid #f6f6f6;
@@ -158,9 +200,7 @@ article:nth-child(3){
     color: white;
 }
 
-.plats{
-    line-height: 0.8rem;
-}
+
 /*******Media Query*******/
 
 @media (min-width: 767px) {
@@ -178,18 +218,23 @@ article:nth-child(3){
         padding-top: 20px;
         font-size: 2rem;
     }
+    .animaMenu{
+        height: 96px;
+    }
     .groupeMenu1, .groupeMenu2, .groupeMenu3{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        height: auto;
     }
+    
     article{
         display: inline-block;
         width: 27%;
         height: 95px;
     }
     .plats{
-        line-height: 1.1rem;
+        // line-height: 1.1rem;
         text-align: left;
     }
     #photoBegin img {
