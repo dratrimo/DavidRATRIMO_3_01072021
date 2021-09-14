@@ -194,13 +194,16 @@ article:nth-child(3){
     // height: 90px;
 }
 .prix{
+    display: flex;
     font-weight: bold;
     // padding-top: 45px;
     width: 30px;
     text-align: center;    
 }
-.prixIcone{
+.prix{
     display: flex;
+    align-items: center;
+
 }
 
 

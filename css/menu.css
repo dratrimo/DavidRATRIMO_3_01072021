@@ -201,13 +201,15 @@ article:nth-child(3) {
 }
 
 .prix {
+  display: flex;
   font-weight: bold;
   width: 30px;
   text-align: center;
 }
 
-.prixIcone {
+.prix {
   display: flex;
+  align-items: center;
 }
 
 .commander {
