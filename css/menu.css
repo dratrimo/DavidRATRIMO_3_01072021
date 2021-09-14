@@ -120,10 +120,29 @@ header {
   padding-left: 15px;
   justify-content: space-between;
 }
+
 .flexMenu {
   width: 1262px;
   display: flex;
   justify-content: space-between;
+}
+
+.animaMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0px;
+  height: 101px;
+  text-align: center;
+  border: 1px solid black;
+  height: 101px;
+  background: white;
+  transition: all 1s;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  top: 0;
+  left: 1px;
 }
 
 article {
@@ -136,9 +155,8 @@ article {
   box-shadow: 1px 1px 5px black;
   transition: all 200ms;
 }
-article:hover {
-  box-shadow: 1px 1px 10px black;
-  background: #f5edff;
+article:hover .animaMenu {
+  transform: translateX(-50px);
 }
 
 article:nth-child(1) {
