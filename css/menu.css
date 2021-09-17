@@ -232,7 +232,6 @@ article:hover .fa-check-circle {
   animation: rotateicon 2s ease-in-out both;
 }
 
-/* animation interieur menu (prix, icone validation,...)*/
 @keyframes slide-price {
   0% {
     -webkit-transform: translateX(0);
@@ -315,6 +314,10 @@ article:hover .fa-check-circle {
     justify-content: space-around;
     flex-wrap: wrap;
     height: auto;
+  }
+
+  .icon {
+    height: 95px;
   }
 
   article {

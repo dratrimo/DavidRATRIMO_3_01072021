@@ -71,8 +71,6 @@ header{
     bottom: 30px;
 }
 
-
-
 // ARTICLES ***********************************
 
 .tirait{
@@ -87,9 +85,6 @@ header{
     display: flex;
     padding-left: 15px; 
     justify-content: space-between;  
-    
-    // &:hover .animaMenu{
-    //     transform: scaleX(4);
     }
     
 article:nth-child(1){
@@ -162,35 +157,12 @@ article{
     justify-content:flex-end;
     // padding-left: 100px;
 }
-// .animaMenu{
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 0px;
-//     height: 101px;
-//     text-align: center;
-//     border: 1px solid black;
-//     height: 101px;
-//     background: white;
-//     transition: all 1s;
-//     border-top-right-radius: 20px;
-//     border-bottom-right-radius: 20px;
-//     position: relative;
-//     top: 0;
-//     left: 1px;
-// }
-
 // animation plat
 .align-price{
     display: flex;
     justify-content: space-between;
 }
-// article:hover h3{
-//     width:50%;
-//     white-space: nowrap;
-//     text-overflow: ellipsis;
-//     overflow: hidden;
-// }
+
 article:hover p{
     width:50%;
     white-space: nowrap;
@@ -213,7 +185,6 @@ article:hover .price{
     height: 100px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    // right: -2px;
     position: relative;
     top: 0;
     opacity: 0;
@@ -234,7 +205,8 @@ article:hover .fa-check-circle {
 	animation: rotateicon 2s ease-in-out both;
   }
 
-/* animation interieur menu (prix, icone validation,...)*/
+//ANIMATION DES BOUTONS MENU (prix décalé, icone validation tournant,suspension) *******************************
+
 @keyframes slide-price {
     0% {
       -webkit-transform: translateX(0);
@@ -320,6 +292,9 @@ article:hover .fa-check-circle {
         justify-content: space-around;
         flex-wrap: wrap;
         height: auto;
+    }
+    .icon{
+        height: 95px;
     }
     
     article{
