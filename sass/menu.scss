@@ -185,13 +185,13 @@ article{
     display: flex;
     justify-content: space-between;
 }
-article:hover h3{
-    width:50%;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
-article:hover h4{
+// article:hover h3{
+//     width:50%;
+//     white-space: nowrap;
+//     text-overflow: ellipsis;
+//     overflow: hidden;
+// }
+article:hover p{
     width:50%;
     white-space: nowrap;
     text-overflow: ellipsis;
