@@ -2,6 +2,7 @@
 @import "./Layouts/header";
 @import "./Layouts/footer";
 
+//**********GENERIQUE**************
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #f6f6f6;
@@ -36,7 +37,7 @@ header{
  
 }
 
-// PAGES DE MENU 
+// PAGES DE MENU ***********************************
 .groupeMenu1 .groupeMenu2 .groupeMenu3{
     height: 98px;
 }
@@ -130,10 +131,10 @@ article{
     margin-bottom: 20px;
     box-shadow: 1px 1px 5px black;
     transition: all 200ms; 
-    // &:hover{
-    //     box-shadow: 1px 1px 10px black;
-    //     background: #f5edff;
-    // } 
+    &:hover{
+        box-shadow: 1px 1px 10px black;
+        background: #f5edff;
+    } 
 }
 
 .flexMenu{

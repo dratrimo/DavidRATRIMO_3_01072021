@@ -167,6 +167,10 @@ article {
   box-shadow: 1px 1px 5px black;
   transition: all 200ms;
 }
+article:hover {
+  box-shadow: 1px 1px 10px black;
+  background: #f5edff;
+}
 
 .flexMenu {
   width: 100%;
