@@ -139,10 +139,15 @@ article{
     //     box-shadow: 1px 1px 10px black;
     //     background: #f5edff;
     // } 
+    &:hover .animaMenu{
+        transform:scaleX(4);
+        background: red;
+    }
+   
 }
 
 .flexMenu{
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     
@@ -153,32 +158,31 @@ article{
     width: 290px;
     // height: 90px;
 }
-.price{
+.prix{
     font-weight: bold;
     // padding-right: 40px;
     width: 130px;   
     display: flex;
     align-items: center;
     justify-content:flex-end;
-    // padding-left: 100px;
 }
-// .animaMenu{
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 0px;
-//     height: 101px;
-//     text-align: center;
-//     border: 1px solid black;
-//     height: 101px;
-//     background: white;
-//     transition: all 1s;
-//     border-top-right-radius: 20px;
-//     border-bottom-right-radius: 20px;
-//     position: relative;
-//     top: 0;
-//     left: 1px;
-// }
+.animaMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+    height: 101px;
+    text-align: center;
+    border: 1px solid black;
+    height: 101px;
+    background: white;
+    transition: all 1s;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: 0;
+    left: 1px;
+}
 
 // animation plat
 .align-price{
@@ -210,11 +214,11 @@ article:hover .price{
     align-items: center;
     background-color: #99E2D0;
     width: 50px;
-    height: 100px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    // right: -2px;
-    position: relative;
+    height: 75px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    right: -2px;
+    position: absolute;
     top: 0;
     opacity: 0;
 
@@ -241,14 +245,14 @@ article:hover .fa-check-circle {
       transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(-40px);
-      transform: translateX(-40px);
+      -webkit-transform: translateX(-100px);
+      transform: translateX(-100px);
     }
   }
   @keyframes slide-validation {
     0% {
-      -webkit-transform: translateX(50px);
-      transform: translateX(50px);
+      -webkit-transform: translateX(1000px);
+      transform: translateX(1000px);
       opacity: 0;
     }
     100% {

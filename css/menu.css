@@ -121,44 +121,6 @@ header {
   justify-content: space-between;
 }
 
-.flexMenu {
-  width: 1262px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.animaMenu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 0px;
-  height: 101px;
-  text-align: center;
-  border: 1px solid black;
-  height: 101px;
-  background: white;
-  transition: all 1s;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  position: relative;
-  top: 0;
-  left: 1px;
-}
-
-article {
-  width: 100%;
-  height: 100px;
-  border: 1px solid white;
-  background-color: white;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 5px black;
-  transition: all 200ms;
-}
-article:hover .animaMenu {
-  transform: translateX(-50px);
-}
-
 article:nth-child(1) {
   animation: fadeInM 3s;
 }
@@ -195,23 +157,121 @@ article:nth-child(3) {
   }
 }
 
+article {
+  width: 100%;
+  height: 100px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px black;
+  transition: all 200ms;
+}
+
+.flexMenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .plats {
   line-height: 0.8rem;
-  width: 70%;
+  width: 290px;
 }
 
-.prix {
-  display: flex;
+.price {
   font-weight: bold;
-  width: 30px;
-  text-align: center;
-}
-
-.prix {
+  width: 130px;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
+.align-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+article:hover h3 {
+  width: 50%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+article:hover h4 {
+  width: 50%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+article:hover .price {
+  -webkit-animation: slide-price 1.8s cubic-bezier(0.25, 0.46, 0.46, 0.94) both;
+  animation: slide-price 1.8s cubic-bezier(0.25, 0.46, 0.46, 0.94) both;
+  animation-delay: 0.467s;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  width: 50px;
+  height: 100px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  top: 0;
+  opacity: 0;
+}
+
+article:hover .icon {
+  -webkit-animation: slide-validation 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-validation 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+article:hover .fa-check-circle {
+  font-size: 1.5em;
+  color: #fff;
+  transition: transform 500ms ease-in-out;
+  -webkit-animation: rotateicon 2s ease-in-out both;
+  animation: rotateicon 2s ease-in-out both;
+}
+
+/* animation interieur menu (prix, icone validation,...)*/
+@keyframes slide-price {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px);
+  }
+}
+@keyframes slide-validation {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes rotateicon {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 .commander {
   border: 1px solid #f6f6f6;
   border-radius: 40px;
