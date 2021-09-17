@@ -151,12 +151,10 @@ article{
 }
 .price{
     font-weight: bold;
-    // padding-right: 40px;
     width: 130px;   
     display: flex;
     align-items: center;
     justify-content:flex-end;
-    // padding-left: 100px;
 }
 // animation plat
 .align-price{
@@ -164,17 +162,15 @@ article{
     justify-content: space-between;
 }
 
-article:hover p{
-    width:50%;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
+// article:hover p{
+//     width:50%;
+//     white-space: nowrap;
+//     text-overflow: ellipsis;
+//     overflow: hidden;
+// }
 
 article:hover .price{
-    -webkit-animation: slide-price 1.8s cubic-bezier(0.250, 0.460, 0.460, 0.940) both;
-	animation: slide-price 1.8s cubic-bezier(0.250, 0.460, 0.460, 0.940) both;
-    animation-delay: 0.467s;
+	animation: slide-price 1.5s ease 0.5s both;
 }
 
 .icon{
@@ -189,7 +185,6 @@ article:hover .price{
     position: relative;
     top: 0;
     opacity: 0;
-
 }
 
  article:hover .icon {  
@@ -210,12 +205,10 @@ article:hover .fa-check-circle {
 
 @keyframes slide-price {
     0% {
-      -webkit-transform: translateX(0);
       transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(-40px);
-      transform: translateX(-40px);
+      transform: translateX(-45px);
     }
   }
   @keyframes slide-validation {
@@ -268,7 +261,7 @@ article:hover .fa-check-circle {
 }
 
 
-/*******Media Query*******/
+/*******MEDIA QUERY*******/
 
 @media (min-width: 767px) {
     footer {
@@ -300,7 +293,7 @@ article:hover .fa-check-circle {
     
     article{
         display: inline-block;
-        width: 27%;
+        width: 32%;
         height: 95px;
     }
     .plats{
