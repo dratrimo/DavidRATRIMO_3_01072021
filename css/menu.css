@@ -180,12 +180,19 @@ article:hover {
 
 .plats {
   line-height: 0.8rem;
-  width: 290px;
+  width: 350px;
+}
+
+article:hover p {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .price {
   font-weight: bold;
-  width: 130px;
+  width: 90px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
