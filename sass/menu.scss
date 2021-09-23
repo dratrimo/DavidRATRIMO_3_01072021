@@ -274,7 +274,7 @@ article:hover .fa-check-circle {
     }
   
 }
-@media (min-width: 1490px) {
+@media (min-width: 1024px) {
     h1{
         margin: 0 auto;
         padding-top: 20px;
@@ -282,6 +282,9 @@ article:hover .fa-check-circle {
     }
     .animaMenu{
         height: 96px;
+    }
+    .flexMenu{
+        width:93% ;
     }
     .groupeMenu1, .groupeMenu2, .groupeMenu3{
         display: flex;
