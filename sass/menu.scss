@@ -184,7 +184,7 @@ article:hover .price{
 }
 
  article:hover .icon {  
-	animation: slide-validation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-validation 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 article:hover .fa-check-circle {
@@ -208,7 +208,7 @@ article:hover .fa-check-circle {
   @keyframes slide-validation {
     0% {
      
-      transform: translateX(60px);
+      transform: translateX(17px);
       opacity: 0;
     }
     100% {
