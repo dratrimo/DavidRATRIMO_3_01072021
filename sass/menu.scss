@@ -33,8 +33,7 @@ header{
    visibility: hidden;
 }
 .anima{
-    float: right;
- 
+    float: right; 
 }
 
 // PAGES DE MENU ***********************************
@@ -183,15 +182,12 @@ article:hover .price{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     position: relative;
-    top: 0;
     opacity: 0;
 }
 
  article:hover .icon {  
-    -webkit-animation: slide-validation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: slide-validation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
 
 article:hover .fa-check-circle {
     font-size: 1.5em;
@@ -213,28 +209,26 @@ article:hover .fa-check-circle {
   }
   @keyframes slide-validation {
     0% {
-      -webkit-transform: translateX(50px);
-      transform: translateX(50px);
+     
+      transform: translateX(60px);
       opacity: 0;
     }
     100% {
-      -webkit-transform: translateX(0);
+
       transform: translateX(0);
       opacity: 1;
     }
   }
   @keyframes rotateicon {
     0% {
-      -webkit-transform: rotate(0);
+      
       transform: rotate(0);
     }
     100% {
-      -webkit-transform: rotate(360deg);
+      
       transform: rotate(360deg);
     }
   }
-
-
 // BOUTON COMMANDER************************************
 
 .commander{
@@ -262,6 +256,14 @@ article:hover .fa-check-circle {
 
 
 /*******MEDIA QUERY*******/
+@media (max-width: 500px) {
+    .price{
+        justify-content: flex-end;
+    }
+    .flexMenu{
+        width: 80% ;
+    }
+}
 
 @media (min-width: 767px) {
     footer {
@@ -272,7 +274,7 @@ article:hover .fa-check-circle {
     }
   
 }
-@media (min-width: 1440px) {
+@media (min-width: 1490px) {
     h1{
         margin: 0 auto;
         padding-top: 20px;
