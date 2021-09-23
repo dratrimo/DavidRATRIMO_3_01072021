@@ -179,11 +179,18 @@ article:hover {
 }
 
 .plats {
-  line-height: 0.8rem;
+  line-height: 1.25rem;
   width: 350px;
 }
 
 article:hover p {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+article:hover h3 {
   width: 80%;
   white-space: nowrap;
   overflow: hidden;
@@ -204,7 +211,7 @@ article:hover p {
 }
 
 article:hover .price {
-  animation: slide-price 1.5s ease 0.5s both;
+  animation: slide-price 1.5s ease 0.2s both;
 }
 
 .icon {
