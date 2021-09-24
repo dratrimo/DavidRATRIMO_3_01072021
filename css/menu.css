@@ -73,10 +73,6 @@ header {
   float: right;
 }
 
-.groupeMenu1 .groupeMenu2 .groupeMenu3 {
-  height: 98px;
-}
-
 #photoBegin {
   height: 310px;
 }
@@ -114,7 +110,7 @@ header {
 }
 
 .link {
-  height: 101px;
+  height: 115px;
   color: black;
   display: flex;
   padding-left: 15px;
@@ -157,9 +153,21 @@ article:nth-child(3) {
   }
 }
 
+article:nth-child(4) {
+  animation: fadeInM 6.5s;
+}
+@keyframes fadeInM {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 article {
   width: 100%;
-  height: 100px;
+  height: 115px;
   border: 1px solid white;
   background-color: white;
   border-radius: 30px;
@@ -174,6 +182,7 @@ article:hover {
 
 .flexMenu {
   width: 100%;
+  height: 115px;
   display: flex;
   justify-content: space-between;
 }
@@ -220,7 +229,7 @@ article:hover .price {
   align-items: center;
   background-color: #99E2D0;
   width: 50px;
-  height: 100px;
+  height: 115px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   position: relative;
@@ -290,6 +299,23 @@ article:hover .fa-check-circle {
 }
 
 /*******MEDIA QUERY*******/
+@media (max-width: 442px) {
+  .price {
+    justify-content: flex-end;
+  }
+
+  .flexMenu {
+    width: 80%;
+  }
+
+  article {
+    height: 115px;
+  }
+
+  .icon {
+    height: 115px;
+  }
+}
 @media (max-width: 500px) {
   .price {
     justify-content: flex-end;
@@ -321,23 +347,24 @@ article:hover .fa-check-circle {
 
   .flexMenu {
     width: 93%;
+    height: 110px;
   }
 
   .groupeMenu1, .groupeMenu2, .groupeMenu3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: auto;
+    height: 125px;
   }
 
   .icon {
-    height: 95px;
+    height: 120px;
   }
 
   article {
     display: inline-block;
     width: 32%;
-    height: 95px;
+    height: 120px;
   }
 
   .plats {
