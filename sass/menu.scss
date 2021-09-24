@@ -53,6 +53,21 @@ header{
         font-family: 'Shrikhand', cursive;
         font-weight: lighter;  
     }
+
+    .fa-heart {
+        font-size: 24px;
+        color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        &::before{
+            font-weight: bold;
+            transition: color 1s ease-out;
+        }
+        &:hover{
+            color: #9356DC;
+            cursor: pointer;
+        }
+    }
     .fas{
        position: relative;
        bottom: 57px;
@@ -314,7 +329,6 @@ article:hover .fa-check-circle {
         height: 96px;
     }
     .flexMenu{
-        // width:93% ;
         width: 93%;
         height: 110px;
     }
@@ -322,7 +336,6 @@ article:hover .fa-check-circle {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        height: 125px;
     }
     .icon{
         height: 120px;
@@ -334,8 +347,7 @@ article:hover .fa-check-circle {
         height: 120px;
     }
     .plats{
-        // line-height: 1.1rem;
-        text-align: left;
+        line-height: 1rem;
     }
     #photoBegin img {
         height: 240px;
