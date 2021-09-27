@@ -29,17 +29,12 @@ a{
 header{
     text-align: center;
 }
-.coeur .far{
-   visibility: hidden;
-}
+
 .anima{
     float: right; 
 }
 
 // PAGES DE MENU ***********************************
-// .groupeMenu1 .groupeMenu2 .groupeMenu3{
-//     height: 98px;
-// }
 
 #photoBegin{
     height: 310px;
@@ -53,6 +48,12 @@ header{
         font-family: 'Shrikhand', cursive;
         font-weight: lighter;  
     }
+
+    .coeur .far{
+        visibility: visible;
+        padding-right: 20px;
+        padding-top: 20px;
+     }
 
     .fa-heart {
         font-size: 24px;
@@ -217,15 +218,14 @@ article:hover .price{
 }
 
  article:hover .icon {  
-	animation: slide-validation 600ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-validation 500ms ease-in-out both;
 }
 
 article:hover .fa-check-circle {
     font-size: 1.5em;
     color: #fff;
     transition: transform 400ms ease-in-out;
-    -webkit-animation: rotateicon 2s ease-in-out both;
-	animation: rotateicon 2s ease-in-out both;
+	animation: rotateicon 1.5s ease-in-out;
   }
 
 //ANIMATION DES BOUTONS MENU (prix décalé, icone validation tournant,suspension) *******************************

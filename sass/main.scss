@@ -60,7 +60,6 @@ text-decoration: none;
     position: absolute;
     z-index: 9999;
     top: 0;left:0; right:0; bottom: 0;
-
 }
 @keyframes loadingSpinner{
     from {-webkit-transform: rotate(360deg);
@@ -128,8 +127,7 @@ text-decoration: none;
     transition: all 300ms;
     &:hover{
         box-shadow: 1px 1px 10px black;
-        background: #f5edff
-        ;
+        background: #f5edff;
     }   
 }
 .chiffre{
