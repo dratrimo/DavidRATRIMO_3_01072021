@@ -67,8 +67,7 @@ text-decoration: none;
 }
 
 @-webkit-keyframes loadingSpinner{
-    to {
-        transform: rotate(360deg);
+    to {transform: rotate(360deg);
     }
 }
 
@@ -201,7 +200,6 @@ article{
     transition: all 300ms;
     &:hover{
         box-shadow: 1px 1px 10px black;
-    
     }   
 }
 .restaurants img{

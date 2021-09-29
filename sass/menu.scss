@@ -41,8 +41,7 @@ header{
     img{
         width: 100%; 
         height: 200px;
-        object-fit: cover;
-          
+        object-fit: cover;      
     }
     h1{
         font-family: 'Shrikhand', cursive;
@@ -75,7 +74,6 @@ header{
        left: 50px;
        font-size: 2rem;
     }
-
 }
 .photoBegin__title{
     display: flex;
@@ -167,8 +165,7 @@ article{
     width: 100%;
     height: 115px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 .plats{
@@ -240,23 +237,19 @@ article:hover .fa-check-circle {
   }
   @keyframes slide-validation {
     0% {
-     
       transform: translateX(21px);
       opacity: 0;
     }
     100% {
-
       transform: translateX(0);
       opacity: 1;
     }
   }
   @keyframes rotateicon {
     0% {
-      
       transform: rotate(0);
     }
-    100% {
-      
+    100% { 
       transform: rotate(360deg);
     }
   }
@@ -284,7 +277,6 @@ article:hover .fa-check-circle {
 .commander a:link{
     color: white;
 }
-
 
 /*******MEDIA QUERY*******/
 @media (max-width: 442px) {
