@@ -101,7 +101,7 @@ a {
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes loadingSpinner {
+@keyframes loadingSpinner {
   to {
     transform: rotate(360deg);
   }

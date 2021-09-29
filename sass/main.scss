@@ -66,7 +66,7 @@ text-decoration: none;
     }
 }
 
-@-webkit-keyframes loadingSpinner{
+@keyframes loadingSpinner{
     to {transform: rotate(360deg);
     }
 }
