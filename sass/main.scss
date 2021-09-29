@@ -62,13 +62,13 @@ text-decoration: none;
     top: 0;left:0; right:0; bottom: 0;
 }
 @keyframes loadingSpinner{
-    from {-webkit-transform: rotate(360deg);
+    from {transform: rotate(360deg);
     }
 }
 
 @-webkit-keyframes loadingSpinner{
     to {
-        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 

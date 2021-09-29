@@ -98,12 +98,12 @@ a {
 
 @keyframes loadingSpinner {
   from {
-    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 @-webkit-keyframes loadingSpinner {
   to {
-    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 .ville {
