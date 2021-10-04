@@ -310,6 +310,12 @@ article{
 /******* Media Query *******/
 
 @media (min-width: 767px) {
+header{
+    height: 90px;
+}
+header img{
+    padding-top: 20px;
+}
 footer {
     text-align: center;
     }
