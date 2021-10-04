@@ -3,23 +3,27 @@
 footer {
     height: 190px;
     background-color:black;
-    color: white;  
-    padding-left: 20px; 
+    color: white;   
 }
 footer h4{
     font-family: 'Shrikhand', cursive;
     font-weight: lighter;
     padding-top: 25px;
+    padding-bottom: 12px;
     margin-top: 0;
+
 }
 footer ul {
     margin: 0;
     padding: 0;
-    line-height: 21px;
+    line-height: 30px;
 }
 footer ul li .fas{
     padding-right: 8px;
 }
 
+.contFooter{
+    padding-left: 20px;
+}
  
 .end a{color : white;}
