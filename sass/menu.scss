@@ -2,6 +2,57 @@
 @import "./Layouts/header";
 @import "./Layouts/footer";
 
+//RESET
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 //**********GENERIQUE**************
 body{
     font-family: 'Roboto', sans-serif;
@@ -13,12 +64,16 @@ main{
 }
 h1{
     padding-left: 10px;
+    font-size: 1.65rem;
 }
 h2{
     text-transform: uppercase;
     font-weight: lighter;
     font-size: 1.1rem;
     padding-top: 10px;
+}
+h3{
+    font-weight: bold;
 }
 li{
     list-style: none;
@@ -33,11 +88,16 @@ header{
 .anima{
     float: right; 
 }
+.container{
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 // PAGES DE MENU ***********************************
 
 #photoBegin{
-    height: 310px;
+    height: 290px;
     img{
         width: 100%; 
         height: 200px;
@@ -50,8 +110,8 @@ header{
 
     .coeur .far{
         visibility: visible;
-        padding-right: 20px;
-        padding-top: 20px;
+        padding-right: 29px;
+        padding-top: 25px;
      }
 
     .fa-heart {
@@ -78,6 +138,7 @@ header{
 .photoBegin__title{
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color: #f6f6f6;
@@ -94,7 +155,7 @@ header{
     bottom: 0.5rem;
 }
 .link{
-    height: 115px;
+    height: 80px;
     color: black;
     display: flex;
     padding-left: 15px; 
@@ -162,14 +223,14 @@ article{
 }
 
 .flexMenu{
-    width: 100%;
+    width: 95%;
     height: 115px;
     display: flex;
     justify-content: space-between;   
 }
 
 .plats{
-    line-height: 1.25rem;
+    line-height: 1.5rem;
     width: 350px;
 }
 article:hover p{
@@ -279,15 +340,18 @@ article:hover .fa-check-circle {
 }
 
 /*******MEDIA QUERY*******/
-@media (max-width: 442px) {
+@media (max-width: 1024px) {
     .price{
         justify-content: flex-end;
     }
-    .flexMenu{
-        width: 80% ;
-    }
     article{
-        height: 115px;
+        height: 80px;
+    }
+    .flexMenu{
+        height: 80px;
+    }
+    .plats{
+        padding-top: 19px;
     }
     .icon{
         height: 115px;
@@ -312,6 +376,7 @@ article:hover .fa-check-circle {
   
 }
 @media (min-width: 1024px) {
+    
     h1{
         margin: 0 auto;
         padding-top: 20px;
