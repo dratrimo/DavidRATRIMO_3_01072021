@@ -71,6 +71,7 @@ h2{
     font-weight: lighter;
     font-size: 1.1rem;
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 h3{
     font-weight: bold;
@@ -96,8 +97,21 @@ header{
 
 // PAGES DE MENU ***********************************
 
+
+.begin{
+    // padding-top: 100px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+header img{
+    margin: 0 auto;
+}
+
+
 #photoBegin{
-    height: 290px;
+    height: 250px;
     img{
         width: 100%; 
         height: 200px;
@@ -129,10 +143,11 @@ header{
         }
     }
     .fas{
-       position: relative;
-       bottom: 57px;
-       left: 50px;
-       font-size: 2rem;
+    //    position: relative;
+    //    bottom: 57px;
+    //    left: 50px;
+
+       font-size: 1rem;
     }
 }
 .photoBegin__title{
@@ -151,8 +166,9 @@ header{
 .tirait{
     border-top: 3px solid #99e2d0;
     width: 45px;
-    position: relative;
-    bottom: 0.5rem;
+    padding-bottom: 12px;
+    // position: relative;
+    // bottom: 0.5rem;
 }
 .link{
     height: 80px;
@@ -230,7 +246,7 @@ article{
 }
 
 .plats{
-    line-height: 1.5rem;
+    line-height: 1.4rem;
     width: 350px;
 }
 article:hover p{
@@ -251,6 +267,7 @@ article:hover h3{
     display: flex;
     align-items: center;
     justify-content:flex-end;
+    padding-top: 21px;
 }
 // animation plat
 .align-price{
@@ -267,7 +284,7 @@ article:hover .price{
     justify-content: center;
     align-items: center;
     background-color: #99E2D0;
-    width: 50px;
+    width: 70px;
     height: 115px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -276,7 +293,7 @@ article:hover .price{
 }
 
  article:hover .icon {  
-	animation: slide-validation 500ms ease-in-out both;
+	animation: slide-validation 1s ease-in-out both;
 }
 
 article:hover .fa-check-circle {
@@ -351,20 +368,21 @@ article:hover .fa-check-circle {
         height: 80px;
     }
     .plats{
-        padding-top: 19px;
+        padding-top: 17px;
     }
     .icon{
-        height: 115px;
+        height: 80px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
     .price{
         justify-content: flex-end;
     }
     .flexMenu{
-        width: 90% ;
+        width: 95% ;
     }
 }
+
 
 @media (min-width: 767px) {
     footer {
@@ -386,7 +404,7 @@ article:hover .fa-check-circle {
         height: 96px;
     }
     .flexMenu{
-        width: 93%;
+        width: 95%;
         height: 110px;
     }
     .groupeMenu1, .groupeMenu2, .groupeMenu3{
