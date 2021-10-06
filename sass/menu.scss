@@ -178,7 +178,7 @@ header img{
     justify-content: space-between;  
     }
     
-article:nth-child(1){
+.first{
     animation: fadeInM 3s;
     @keyframes fadeInM {
         from{
@@ -189,7 +189,7 @@ article:nth-child(1){
         }
     }
 }
-article:nth-child(2){
+.second{
     animation: fadeInM 5s;
     @keyframes fadeInM {
         from{
@@ -200,7 +200,7 @@ article:nth-child(2){
         }
     }
 }
-article:nth-child(3){
+.third{
     animation: fadeInM 6s;
     @keyframes fadeInM {
         from{
@@ -211,7 +211,7 @@ article:nth-child(3){
         }
     }
 }
-article:nth-child(4){
+.fourth{
     animation: fadeInM 6.5s;
     @keyframes fadeInM {
         from{
