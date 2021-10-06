@@ -313,7 +313,7 @@ article:hover h3 {
 }
 
 article:hover .price {
-  animation: slide-price 1.5s ease 0.2s both;
+  animation: slide-price 1s ease 0.2s both;
 }
 
 .icon {
@@ -323,10 +323,14 @@ article:hover .price {
   background-color: #99E2D0;
   width: 70px;
   height: 115px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   position: relative;
   opacity: 0;
+}
+
+.icon .fas {
+  font-size: 2px;
 }
 
 article:hover .icon {
@@ -345,16 +349,18 @@ article:hover .fa-check-circle {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-45px);
+    transform: translateX(-60px);
   }
 }
 @keyframes slide-validation {
   0% {
-    transform: translateX(21px);
+    transform-origin: right;
+    transform: scaleX(0);
     opacity: 0;
   }
   100% {
-    transform: translateX(0);
+    transform-origin: right;
+    transform: scaleX(1.8);
     opacity: 1;
   }
 }
@@ -387,6 +393,18 @@ article:hover .fa-check-circle {
 }
 
 /*******MEDIA QUERY*******/
+@media (max-width: 450px) {
+  .plats p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+  }
+
+  .icon {
+    margin-left: -8px;
+  }
+}
 @media (max-width: 1024px) {
   .price {
     justify-content: flex-end;
@@ -433,13 +451,17 @@ article:hover .fa-check-circle {
     font-size: 2rem;
   }
 
+  #photoBegin {
+    height: 267px;
+  }
+
   .animaMenu {
     height: 96px;
   }
 
   .flexMenu {
     width: 95%;
-    height: 110px;
+    height: 91px;
   }
 
   .groupeMenu1, .groupeMenu2, .groupeMenu3 {
@@ -449,21 +471,37 @@ article:hover .fa-check-circle {
   }
 
   .icon {
-    height: 120px;
+    height: 90px;
+    margin-left: -8px;
   }
 
   article {
     display: inline-block;
     width: 32%;
-    height: 120px;
+    height: 90px;
   }
 
   .plats {
-    line-height: 1rem;
+    line-height: 22px;
+    padding-top: 21px;
   }
 
   #photoBegin img {
     height: 240px;
+  }
+
+  .plats h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+
+  .plats p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px;
   }
 }
 
