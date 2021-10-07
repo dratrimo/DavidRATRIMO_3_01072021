@@ -226,7 +226,7 @@ header img{
 article{
     width: 100%;
     height: 115px;
-    border: 1px solid white ;
+    border: 0.1 solid white ;
     background-color: white;
     border-radius: 30px;
     margin-bottom: 20px;
@@ -293,19 +293,16 @@ article:hover .price{
     right: 13.5px;
     opacity: 0;
 }
-// .icon .fas{
-//     font-size: 2px;
-// }
 
  article:hover .icon {  
-	animation: slide-validation 1s ease-in-out both;
+	animation: slide-validation 0.8s ease-in-out both;
 }
 
 article:hover .fa-check-circle {
     font-size: 1.5em;
     color: #fff;
     transition: transform 400ms ease-in-out;
-	animation: rotateicon 1.5s ease-in-out;
+	animation: rotateicon 0.8s ease-in-out;
   }
 
 //ANIMATION DES BOUTONS MENU (prix décalé, icone validation tournant,suspension) *******************************
@@ -315,7 +312,7 @@ article:hover .fa-check-circle {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-60px);
+      transform: translateX(-70px);
     }
   }
   @keyframes slide-validation {
