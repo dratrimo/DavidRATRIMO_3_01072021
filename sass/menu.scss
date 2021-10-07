@@ -363,6 +363,12 @@ article:hover .fa-check-circle {
 /*******MEDIA QUERY*******/
 
 @media (max-width: 450px) {
+    .plats h3{
+        overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     max-width: 170px;
+    }
     .plats p{
         overflow: hidden;
      white-space: nowrap;
