@@ -323,8 +323,8 @@ article:hover .price {
   background-color: #99E2D0;
   width: 70px;
   height: 115px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   position: absolute;
   right: 13.5px;
   opacity: 0;
@@ -383,7 +383,7 @@ article:hover .fa-check-circle {
   transition: transform 800ms;
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .explore:hover {
   background: #ff93e1;
@@ -522,6 +522,16 @@ article:hover .fa-check-circle {
     white-space: nowrap;
     text-overflow: ellipsis;
     max-width: 200px;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1600px) {
+  @keyframes slide-price {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100px);
+    }
   }
 }
 
